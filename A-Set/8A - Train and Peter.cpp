@@ -3,44 +3,29 @@ using namespace std;
 
 int main()
 {
-	string::size_type temp;
-	string a,b,c,ans;
-	cin >> a >> b >> c;
-	if(temp=a.find(b)!=string::npos)
+	size_t temp;
+	string str0,str1,str2,ans;
+	bool flag1=false,flag2=false ;
+	cin >> str0 >> str1 >> str2;
+	if((temp=str0.find(str1))!=string::npos)
 	{
-		if(temp<a.find(c))
-		{
-			ans="forward";
-		}
+		if((temp=str0.find(str2,temp+str1.length()))!=string::npos)
+			flag1=true;
 	}
-	if(temp=a.rfind(b)!=string::npos)
+	reverse(str0.begin(),str0.end());
+	if((temp=str0.find(str1))!=string::npos)
 	{
-		if(temp<a.rfind(c))
-		{
-			if(ans=="forward")
-				ans=="both";
-			else
-				ans="backward";
-		}
+		if((temp=str0.find(str2,temp+str1.length()))!=string::npos)
+			flag2=true;
 	}
-	
-	if(a.find(b)==string::npos && a.find(c)==string::npos && a.rfind(b)==string::npos && a.rfind(c)==string::npos)
-		ans="fantasy";	
-	if(temp=a.find(b)!=string::npos)
-	{
-		if(temp<a.find(c))
-		{
-			ans="fantasy";
-		}
-	}
-		if(temp=a.rfind(b)!=string::npos)
-	{
-		if(temp<a.rfind(c))
-		{
-			ans="fantasy";
-		}
-	}
+	if(flag1&&flag2)
+		ans="both";
+	else if(flag1)
+		ans="forward";
+	else if (flag2)
+		ans="backward";
+	else 
+		ans="fantasy";
 	cout << ans << endl;
 	return 0;
 }
-
