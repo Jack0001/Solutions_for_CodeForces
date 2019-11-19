@@ -15,13 +15,13 @@ int main()
 	}
 	if(count>len/2)
 	{
-		cout<<(int)len;
+		cout << (int)len << endl;
 	}
 	else
 	{
 		while(len/2>=count)
 		    len--;
-		cout<<len;
+		cout << len << endl;
 	}
 	return 0;
 }

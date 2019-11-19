@@ -15,10 +15,10 @@ int main()
 		    D_count++;
 	}
 	if(A_count<D_count)
-	    cout << "Danik";
+	    cout << "Danik" << endl;
 	else if(A_count>D_count)
-	    cout << "Anton";
+	    cout << "Anton" << endl;
 	else if(A_count==D_count)
-	    cout << "Friendship";
+	    cout << "Friendship" << endl;
     return 0;
 }
