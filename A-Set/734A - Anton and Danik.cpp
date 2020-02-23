@@ -10,15 +10,15 @@ int main()
 	for(i=0;i<num;i++)
 	{
 		if(str[i]=='A')
-		    A_count++;
+			A_count++;
 		if(str[i]=='D')
-		    D_count++;
+			D_count++;
 	}
 	if(A_count<D_count)
-	    cout << "Danik" << endl;
+		cout << "Danik" << endl;
 	else if(A_count>D_count)
-	    cout << "Anton" << endl;
+		cout << "Anton" << endl;
 	else if(A_count==D_count)
-	    cout << "Friendship" << endl;
-    return 0;
+		cout << "Friendship" << endl;
+	return 0;
 }

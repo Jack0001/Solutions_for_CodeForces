@@ -10,5 +10,5 @@ int main()
 	else
 		ans=-(n/2+1);
 	cout << ans << endl;
-    return 0;
+	return 0;
 }

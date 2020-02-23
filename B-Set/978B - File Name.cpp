@@ -7,10 +7,10 @@ int main()
 	long long ans=0,num;
 	cin>>num>>str;
 	while(str.find("xxx")!=-1)
-    {
-    	str.erase(str.find("xxx"),1);
-        ans++;
-    }
-    cout<<ans<<endl;
+	{
+		str.erase(str.find("xxx"),1);
+		ans++;
+	}
+	cout<<ans<<endl;
+	return 0;
 }
-

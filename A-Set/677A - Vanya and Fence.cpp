@@ -14,5 +14,5 @@ int main()
 			ans++;
 	}
 	cout << ans << endl;
-    return 0;
+	return 0;
 }

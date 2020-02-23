@@ -18,5 +18,5 @@ int main()
 		cout << "HARD" << endl;
 	else
 		cout << "EASY" << endl;
-    return 0;
+	return 0;
 }

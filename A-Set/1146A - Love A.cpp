@@ -11,7 +11,7 @@ int main()
 	for(i=0;i<len;i++)
 	{
 		if(s[i]=='a')
-		    count++;
+			count++;
 	}
 	if(count>len/2)
 	{
@@ -20,7 +20,7 @@ int main()
 	else
 	{
 		while(len/2>=count)
-		    len--;
+			len--;
 		cout << len << endl;
 	}
 	return 0;

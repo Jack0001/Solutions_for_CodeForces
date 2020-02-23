@@ -18,5 +18,5 @@ int main()
 		}
 	}
 	cout << counter+1 << endl;
-    return 0;
+	return 0;
 }

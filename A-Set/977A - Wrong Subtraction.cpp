@@ -13,5 +13,5 @@ int main()
 			n--;
 	}
 	cout << n << endl;
-    return 0;
+	return 0;
 }

@@ -5,15 +5,15 @@ int main()
 {
 	string num;
 	int counter=0,i;
-    cin>>num;
-    for(i=0;i<num.length();i++)
-    {
-        if(num[i]=='4' || num[i]=='7')
+	cin>>num;
+	for(i=0;i<num.length();i++)
+	{
+		if(num[i]=='4' || num[i]=='7')
 			counter++;
-    }
-    if(counter==4 || counter==7)
+	}
+	if(counter==4 || counter==7)
 		cout << "YES" << endl;
-    else
+	else
 		cout << "NO" << endl;
-    return 0;
+	return 0;
 }

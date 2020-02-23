@@ -12,5 +12,5 @@ int main()
 		year++;
 	}
 	cout << year << endl;
-    return 0;
+	return 0;
 }

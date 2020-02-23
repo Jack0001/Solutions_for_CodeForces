@@ -7,7 +7,6 @@ int main()
 {
 	int i,n,length;
 	string str,num;
-	
 	cin>>n;
 	for(i=0;i<n;i++)
 	{

@@ -18,5 +18,5 @@ int main()
 	if(uppercaseC<=lowercaseC)
 		transform(s.begin(),s.end(),s.begin(),::tolower);
 	cout << s << endl;
-    return 0;
+	return 0;
 }

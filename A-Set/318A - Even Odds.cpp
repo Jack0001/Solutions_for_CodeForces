@@ -15,4 +15,5 @@ int main()
 		arr[j]=i;
 	}
 	cout<<arr[pos-1]<<endl;
+	return 0;
 }

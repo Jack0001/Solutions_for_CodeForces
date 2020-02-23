@@ -10,15 +10,15 @@ int main()
 	{
 		cin >> pattern;
 		if(pattern=="Tetrahedron")
-		    ans+=4;
+			ans+=4;
 		if(pattern=="Cube")
-		    ans+=6;
+			ans+=6;
 		if(pattern=="Octahedron")
-		    ans+=8;
+			ans+=8;
 		if(pattern=="Dodecahedron")
-		    ans+=12;
+			ans+=12;
 		if(pattern=="Icosahedron")
-		    ans+=20;
+			ans+=20;
 	}
 	cout << ans << endl;
 	return 0;

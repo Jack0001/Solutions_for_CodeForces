@@ -18,5 +18,5 @@ int main()
 		}
 	}
 	cout << y << endl;
-    return 0;
+	return 0;
 }
